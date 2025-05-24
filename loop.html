@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // write a program for printing even number between range 1 to 50
+        let i
+        const n = 50
+        for (i = 1; i <= n; i++) {
+            if (i % 2 == 0) {
+                document.write(i + "<br>")
+            }
+        }
+
+        let a = 0
+        while (a <= 10) {
+            a++
+            alert(a)
+
+        }
+
+        while (true) {
+            console.log("Hello World")
+        }
+
+        let j = 0
+        do {
+            alert(j)
+            j++
+        } while(j<=5);
+
+
+        let city = {
+            a : "Pune",
+            b : "Mumbai",
+            c  : "Delhi"
+        }
+        for(key in object)
+
+        for(let i in city){
+            document.write(i + ":" + city[i] + "<br>")
+        }    
+
+        let number = [11,22,33,44,55,66]
+
+        for(variable of iterable){
+        }
+            for (const i of number){
+                document.write(i*2 + "<br>")
+
+            }
+
+            for(let i = 0; i<10; i++){
+                if(i==3){
+                    continue;
+                }
+                document.write(i+ "<br>")
+                }
+        
+
+    </script>
+</body>
+
+</html>

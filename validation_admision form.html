@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <link rel="stylesheet" href="validation_admision form.css">
+</head>
+<body>
+    <div class="admission-form">
+        <h2>Admission Form</h2>
+        <form id="admission-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <span id="name-error" class="error-msg"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <span id="email-error" class="error-msg"></span>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone">
+                <span id="phone-error" class="error-msg"></span>
+            </div>
+            <div class="form-group">
+                <label for="course">Course:</label>
+                <select id="course" name="course">
+                    <option value="">Select Course</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BBA(CA)">BBA(CA)</option>
+                </select>
+                <span id="course-error" class="error-msg"></span>
+            </div>
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address"></textarea>
+                <span id="address-error" class="error-msg"></span>
+            </div>
+            <button id="submit-btn">Submit</button>
+        </form>
+    </div>
+
+    <script src="validation_admision form.js"></script>
+</body>
+</html>
+
+
+
